@@ -19,16 +19,26 @@ day = 6
 weight = 59.2 
 
 # string
-favePizzaTopping = "broccoli with dried tomatoes"
+fave_pizza_topping = "broccoli with dried tomatoes"
 
 # string (with backslash)
-faveRestaurant = 'Josie\'s Vegan Delicious "Burgers"'
+fave_restaurant = 'Josie\'s Vegan Delicious "Burgers"'
 
 # boolean
-lightIsOn = True
 
-if lightIsOn: 
-  print("The light is on.")
+light_is_on = True
+party_is_over = False  
+
+if light_is_on or party_is_over:  # this condition is true. The statement will be printed.
+  print("Time is up! Let's go home.")
+
+light_is_on = False
+party_is_over = False
+
+if light_is_on | party_is_over:  # this condition is false. Nothing will be printed.
+  print("Show's over! Let's go to bed.")
+  
+# the symbol | indicates logical disjunction, also called logical alternation, is an operation on two logical values, typically the values of two propositions, that produces a value of false if, and only if, both of its operands are false.
 
 # ===========================================================
 
@@ -38,8 +48,8 @@ print("The current temperature feels like:", temperature)
 # concatenation with F-strings
 print(f"Today is August, the {day}th.")
 print(f"Your total weight goal is: {weight - 5}.")
-print(f"My favorite pizza topping is {favePizzaTopping}.")
-print(f"My favorite restaurant of all time is {faveRestaurant}.")
+print(f"My favorite pizza topping is {fave_pizza_topping}.")
+print(f"My favorite restaurant of all time is {fave_restaurant}.")
 
 # ===========================================================
 
@@ -50,7 +60,7 @@ numA = numB = numC = 1
 print(numA, numB, numC)  # 1 1 1
 
 # multiple variables can be assigned different values on a single line
-boolean, luckyNum, name = True, 7, "John"
-print(boolean, luckyNum, name)  # True 7 John
+boolean, lucky_num, name = False, 7, "John"
+print(boolean, lucky_num, name)  # False 7 John
 
 # ===========================================================
