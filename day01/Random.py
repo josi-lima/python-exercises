@@ -21,17 +21,21 @@ print("")
 
 fortune_cookie = random.randint(1,50)
 
-print(f"Let's check the fortune of the day:")
+lucky_msg = ''
+
+print(f"Let's check the fortune of the day: {[fortune_cookie]}")
 
 if fortune_cookie >= 41 and fortune_cookie <= 50: 
-  print("Some days you are pigeon, some days you are statue.")
+  lucky_msg = "Some days you are pigeon, some days you are statue."
 elif fortune_cookie >= 31:
-  print("Your reality check's about to bounce.")
+  lucky_msg = "Your reality check's about to bounce."
 elif fortune_cookie >= 21: 
-  print("Drive like hell, you will get there.")
+  lucky_msg = "Drive like hell, you will get there."
 elif fortune_cookie >= 11: 
-  print("Okay to look at past and future. Just don't stare!")
-elif fortune_cookie >= 1 and fortune_cookie >= 10:
-  print("A day without sunshine is like night.")
+  lucky_msg = "Okay to look at past and future. Just don't stare!"
+elif fortune_cookie >= 1 and fortune_cookie <= 10:
+  lucky_msg = "A day without sunshine is like night."
+  
+print(lucky_msg)
 
 # ===========================================================
