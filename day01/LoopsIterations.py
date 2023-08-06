@@ -47,3 +47,24 @@ while True:
   if userInput.strip() == 'go away':
     print("Thanks! Have a good life!")
     break
+  
+# ===========================================================
+
+# Iterations / for in
+
+# Iterating a List
+
+friends = ['Monica', 'Ross', 'Chandler', 'Rachel', 'Joey', 'Phoebe']
+
+for friend in friends:
+  print(f"I'll be there for you, {friend}.")
+print("When the rain starts to pour...")
+
+# Interating a Tuple
+
+yummy_food = ('vegan_barbecue', 'samosa', 'ice_cream')
+
+for food in yummy_food:
+  print(f"If you eat too much {food}, you'll be chubby!")
+  
+# unlike the list, a tuple is immutable, and is like a static array
