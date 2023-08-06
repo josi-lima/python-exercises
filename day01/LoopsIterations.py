@@ -13,6 +13,8 @@ print("Goooo!!")
 # ===========================================================
 
 # the counter variable {position} is incremented by 2 each time the loop repeats
+# starting position, ending position, increment
+
 for position in range(5, 10, 2):
   print(f"Your position on the pulic exams is: {position}th.")
   
@@ -22,7 +24,16 @@ for position in range(5, 10, 2):
 
 # ===========================================================
 
+# loop 10 times and print the number of the loop * 2. Ex. 2, 4, 6, 8..., 20.
+for num in range(10):
+  multiply = (num + 1) * 2;
+  print(multiply)
+
+# ===========================================================
+
 # the counter variable {monkeys} is decreased by 2 each time the loop repeats
+# starting position, ending position, decrement
+
 for monkeys in range(10, 4, -2):
   print(f"Now there are only {monkeys} monkeys jumping on the bed.")
   
@@ -68,3 +79,6 @@ for food in yummy_food:
   print(f"If you eat too much {food}, you'll be chubby!")
   
 # unlike the list, a tuple is immutable, and is like a static array
+
+# ===========================================================
+
