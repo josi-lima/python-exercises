@@ -16,9 +16,13 @@ room_nums['Isaac'] = 345  # add a new key ’Isaac’ with the associated value
 print(room_nums.keys()) 
 # dict_keys(['Tom', 'Jerry', 'Isaac'])
 
-print ('Isaac' in room_nums)  # test if ’issac’ is in the dictionary
+# test if ’issac’ is in the dictionary
+print ('Isaac' in room_nums)   # key in my_dic
 # True
 
 # different types of values in a single list
 hotel_features = {1: "Taj", "city": "Woodland", "distance": 3.14}
+
 print(hotel_features)
+# {1: 'Taj', 'city': 'Woodland', 'distance': 3.14}
+
