@@ -59,6 +59,8 @@ while True:
     print("Thanks! Have a good life!")
     break
   
+# the strip() method removes any leading (at the beginning of the string), and trailing (at the end) whitespaces.
+  
 # ===========================================================
 
 # Iterations / for in
@@ -73,7 +75,7 @@ print("When the rain starts to pour...")
 
 # Interating a Tuple
 
-yummy_food = ('vegan_barbecue', 'samosa', 'ice_cream')
+yummy_food = ('vegan barbecue', 'samosa', 'ice cream')
 
 for food in yummy_food:
   print(f"If you eat too much {food}, you'll be chubby!")
