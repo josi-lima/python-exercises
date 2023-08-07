@@ -1,5 +1,6 @@
 # FUNCTIONS
-# the reserved word 'def' defines a function 
+
+# the reserved word 'def' is used to define a function 
 
 # Create a function that prints a message with the countries a person would like to live in.
 
@@ -55,3 +56,17 @@ for heroe in heroes:
 # black widow
   
 # ===========================================================
+
+# Create a function that returns a number entered by the user times 2.
+
+def double_chances():
+  user_input = input("What number would you like to double? ")
+  print(int(user_input) * 2) 
+
+double_chances()
+
+# Note: the user's input will always be treated as a string
+# int() converts the string provided to an integer
+
+# ===========================================================
+
