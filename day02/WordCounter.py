@@ -7,20 +7,20 @@ vowels = " a e i o u a a o e "
 # split() takes the string and, anywhere that there's a space, it breaks it off into single strings inside of a list.
 
 print(vowels.split())
-# ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e']
+# ['a', 'e', 'i', 'o', 'u', 'A', 'a', 'o', 'e']
 
 # with a dictionary, we can store the words (or, in this case, these letters) as the keys, and then count how many times each letter appears as an integer.
-word_count = {}
+letter_count = {}
 
-# loop over the list that comes from vowels.split() and count it string
+# loop over the list that comes from vowels.split() and count its string
 
-for letter in vowels.split():
-  if letter in word_count:
-    word_count[letter] += 1
+for letter in vowels.lower().split():
+  if letter in letter_count:
+    letter_count[letter] += 1
   else: 
-    word_count[letter] = 1
+    letter_count[letter] = 1
   
-print(word_count)
+print(letter_count)
 # {'a': 3, 'e': 2, 'i': 1, 'o': 2, 'u': 1}
 
 # ===========================================================
@@ -44,7 +44,7 @@ print(len(text))  # 890
 
 # ---------------------------
 
-# whenever there's a space, break the longer string off into single strings inside of a list.
+# whenever there's a space, break the text off into single strings placed inside a list.
 print(text.split())
 
 # Example: ['For', 'days,', 'the', 'rain', 'came', 'down', ... ]
@@ -53,3 +53,20 @@ print(text.split())
 
 # print the number of words in a text, counting its strings
 print(len(text.split()))  # 144
+
+word_count = {}
+
+# loop over the list that comes from text.split() and count its string
+
+for word in text.lower().split():
+  if word in word_count:
+    word_count[word] += 1
+  else:
+    word_count[word] = 1
+
+print(word_count)
+# Example: {'for': 2, 'days,': 1, 'the': 12, 'rain': 1, ... }
+
+# ===========================================================
+
+
