@@ -1,4 +1,5 @@
 # FUNCTIONS
+# the reserved word 'def' defines a function 
 
 # Create a function that prints a message with the countries a person would like to live in.
 
@@ -30,11 +31,27 @@ triangle_area(15, 10)
 
 # Create a function that returns a string in all caps. 
 
-def turn_all_caps(string):
+def uppercase(string):
   upper = string.upper()
   return upper
 
-print(turn_all_caps("all we need is love."))
+print(uppercase("all we need is love."))
 # ALL WE NEED IS LOVE.
 
+# ---------------------------
+
+# Create a function that returns the names of a list in lower caps. 
+
+heroes = ['BATMAN', 'SPIDER MAN', 'BLACK WIDOW']
+
+def lowercase(name):
+  lower = name.lower()
+  return lower
+
+for heroe in heroes:
+  print(lowercase(heroe))
+# batman 
+# spider man 
+# black widow
+  
 # ===========================================================
