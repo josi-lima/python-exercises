@@ -5,10 +5,16 @@ class Dog:
   # initialization function: whenever a new object is created from a class, this function is called. It's similar to a constructor in Java.
   def __init__(self):
     print("I'm alive!")
+    
+# ---------------------------
 
 # an object or an instance of a class
-Dog()
+Dog()  
+# Output: I'm alive!
+
+# ---------------------------
   
 # access a variable from a class by using the dot operator
-print(f"What is a dog? {Dog.definition}")
 
+print(f"What is a dog? {Dog.definition}")
+# Output: What is a dog? a domesticated carnivorous... 
