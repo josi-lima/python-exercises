@@ -15,8 +15,14 @@ class Person:
         return False
       else:
         return True
+      
+voter = Person('Josie', 'Brazilian', 38)
 
-candidate = Person('Josie', 'Brazilian', 38)
-  
-print(candidate.name); print(candidate.nationality); print(candidate.age)
+# access the attributes  
+print(f"My name's {voter.name}. I'm a {voter.nationality} citizen, and I'm {voter.age} years old.")
+# My name's Josie. I'm a Brazilian citizen, and I'm 38 years old.
+
+# access the method
+print(f"Is the voter a minor? {voter.isMinor()}")  # False
+
 
