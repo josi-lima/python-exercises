@@ -10,7 +10,7 @@ import time
 # It will also be shown how many times it took for the user the guess the correct number.
 
 print("Welcome to the Guessing Game! I'm going to select a secret number between 01 and 100.")
-time.sleep(4)
+time.sleep(5)
 
 print("Picking a number...")
 time.sleep(3)
