@@ -49,3 +49,28 @@ for veggie in vegetables:
 # Don't forget to wash the zucchini before eating it.
 
 # ---------------------------
+
+# Working with Lists
+
+countries = [
+    "Portugal", 
+    "England", 
+    "Brazil", 
+    "New Zealand", 
+    "Spain"
+    ]
+
+numbers = [2, 14, 9, 10, 38]
+
+# Sorting a List
+countries.sort()
+numbers.sort()
+
+# Looping a List
+for country in countries:
+    print(country)
+    
+for num in numbers:
+    print(num)
+    
+# ===========================================================
