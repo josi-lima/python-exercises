@@ -53,12 +53,12 @@ for veggie in vegetables:
 # Working with Lists
 
 countries = [
-    "Portugal", 
-    "England", 
-    "Brazil", 
-    "New Zealand", 
-    "Spain"
-    ]
+  'Portugal', 
+  'England', 
+  'Brazil', 
+  'New Zealand', 
+  'Spain'
+  ]
 
 numbers = [2, 14, 9, 10, 38]
 
@@ -68,9 +68,12 @@ numbers.sort()
 
 # Looping a List
 for country in countries:
-    print(country)
+  print(country)
+# Brazil England New Zealand Portugal Spain
     
 for num in numbers:
-    print(num)
+  print(num)
+# 2 9 10 14 38
     
 # ===========================================================
+
