@@ -63,3 +63,23 @@ print(i)  # 2
 print(j)  # -1
 
 # ===========================================================
+
+# SPLIT in Python
+
+# the split() method splits a string into a list. You can specify the separator, default separator is any whitespace
+
+words = 'His e-mail is q-lar@freecodecamp.org'
+
+pieces = words.split()   # the separator is any whitespace
+print(pieces)
+# ['His', 'e-mail', 'is', 'q-lar@freecodecamp.org']
+
+parts = pieces[3].split('-')   # the separator is '-'
+print(parts)
+# ['q', 'lar@freecodecamp.org']
+
+n = parts[1]   # index
+print(n)
+# lar@freecodecamp.org
+
+# ===========================================================
