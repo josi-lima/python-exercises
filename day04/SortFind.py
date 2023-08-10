@@ -50,3 +50,16 @@ print(sorted(data))
 
 # ===========================================================
 
+# FIND in Python
+
+# find() method finds the first occurrence of the specified value 
+# it returns -1 if the value is not found
+
+word = "bananana"
+i = word.find("na")
+j = word.find("pi")
+
+print(i)  # 2
+print(j)  # -1
+
+# ===========================================================
