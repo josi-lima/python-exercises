@@ -64,3 +64,11 @@ boolean, lucky_num, name = False, 7, "John"
 print(boolean, lucky_num, name)  # False 7 John
 
 # ===========================================================
+
+# unlike addition, you can multiple a string and an integer.
+
+multiply = '4' * 4
+
+print(multiply)  # '4444'
+
+# ===========================================================
