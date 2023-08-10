@@ -54,6 +54,20 @@ for heroe in heroes:
 # batman 
 # spider man 
 # black widow
+
+# ===========================================================
+
+# Create a dynamic function that multiplies two numbers, taken into account that the first number is the result of the sum of 'x + 2'.
+
+def addTwo(x):
+  return x + 2
+
+def multiply(a, b):
+  return a * b
+
+result = multiply(addTwo(20), 3)  # using a function as one of the parameters
+
+print(result) # 66
   
 # ===========================================================
 
@@ -69,4 +83,3 @@ double_chances()
 # int() converts the string provided to an integer
 
 # ===========================================================
-
