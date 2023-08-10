@@ -53,11 +53,11 @@ while number < 10:
 print ("Exited while loop.")
 
 # We can exit any loop by using the break statement
-while True:
-  userInput = input("Please enter 'go away': ")
-  if userInput.strip() == 'go away':
-    print("Thanks! Have a good life!")
-    break
+# while True:
+#   userInput = input("Please enter 'go away': ")
+#   if userInput.strip() == 'go away':
+#     print("Thanks! Have a good life!")
+#     break
   
 # the strip() method removes any leading (at the beginning of the string), and trailing (at the end) whitespaces.
   
@@ -84,3 +84,27 @@ for food in yummy_food:
 
 # ===========================================================
 
+# WHILE with conditionals
+
+numberA = 0
+
+while True:
+  if numberA == 3:
+      break
+  numberA = numberA + 1
+  
+  print(numberA)  # 1 2 3
+    
+# ---------------------------
+
+numberB = 0
+
+while True:
+  if numberB == 3:
+      break
+  
+  print(numberB)  # 0 1 2
+  numberB = numberB + 1
+  
+# ===========================================================
+  
