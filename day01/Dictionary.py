@@ -82,3 +82,21 @@ for key, value in states_Brazil.items():   # 'key' and 'value' are just variable
   
 # ===============================================
 
+# Order in a dictionary
+
+# Lists --- index their entries based on the position in the list. 
+# Dictionaries --- on the other hand, are like bags: no order!
+
+dict = {"Fri": 20, "Thu": 6, "Sat": 1}
+
+# set a new value
+dict["Thu"] = 13
+dict["Sat"] = 2
+
+# add a new 'key: value' pair
+dict["Sun"] = 9  
+
+print(dict)
+# {'Fri': 20, 'Thu': 13, 'Sat': 2, 'Sun': 9}
+
+# ===============================================
