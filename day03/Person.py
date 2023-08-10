@@ -10,8 +10,10 @@ class Person:
         self.age = age
         
   # Declaring a method with if/else statement and returning a boolean
+  # self -- passed as a parameter of a function inside a class, means that we have access to any attributes of the init function
+  
   def isMinor(self):
-      if self.age >= 18: # access the parameter
+      if self.age >= 18: # access the attribute 'age'
         return False
       else:
         return True
