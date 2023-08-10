@@ -83,3 +83,16 @@ print(n)
 # lar@freecodecamp.org
 
 # ===========================================================
+
+# GET in Python
+
+# get() method returns the value for the given key if present in the dictionary. If not, then it will return None
+
+counts = { 'quincy' : 1 , 'mrugesh' : 42, 'beau': 100, '0': 10}
+
+print(counts.get('kris'))  # None
+
+# the value '0' is provided
+print(counts.get('kris', 0))  # 0
+
+# ===========================================================
