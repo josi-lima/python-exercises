@@ -9,20 +9,30 @@ print('Hello World!'); print("Welcome to  planet Python!")
 # Python will automatically convert a type to another whenever required.
 # No need to use the type casting like JAVA 
 
+# ---------------------------
+
 # integer (negative) 
 temperature = -15 
+
+# ---------------------------
 
 # integer (positive)  
 day = 6
 
+# ---------------------------
+
 # float
 weight = 59.2 
+
+# ---------------------------
 
 # string
 fave_pizza_topping = "broccoli with dried tomatoes"
 
 # string (with backslash)
 fave_restaurant = 'Josie\'s Vegan Delicious "Burgers"'
+
+# ===========================================================
 
 # boolean
 
@@ -39,6 +49,12 @@ if light_is_on | party_is_over:  # this condition is false. Nothing will be prin
   print("Show's over! Let's go to bed.")
   
 # the symbol | indicates logical disjunction, also called logical alternation, is an operation on two logical values, typically the values of two propositions, that produces a value of false if, and only if, both of its operands are false.
+
+# ---------------------------
+
+# check bool values
+check = 0 is 0.0
+print(check)
 
 # ===========================================================
 

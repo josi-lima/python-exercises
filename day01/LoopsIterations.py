@@ -1,4 +1,4 @@
-# For Loop
+# FOR LOOP
 
 # loop starts in 1 and goes until 4 (non-inclusive)
 for count_down in range(1, 4): 
@@ -43,27 +43,20 @@ for monkeys in range(10, 4, -2):
 
 # ===========================================================
 
-# While loop
-
-number = 3 # declaring the start point
-
-while number < 10:
-  number *= 2
-  print (number) # 6 12
-print ("Exited while loop.")
-
-# We can exit any loop by using the break statement
-# while True:
-#   userInput = input("Please enter 'go away': ")
-#   if userInput.strip() == 'go away':
-#     print("Thanks! Have a good life!")
-#     break
-  
-# the strip() method removes any leading (at the beginning of the string), and trailing (at the end) whitespaces.
-  
-# ===========================================================
-
 # Iterations / for in
+
+# Iterating a string
+
+for n in "banana":
+    print(n)  
+# b
+# a
+# n
+# a
+# n
+# a
+    
+# ---------------------------
 
 # Iterating a List
 
@@ -73,7 +66,9 @@ for friend in friends:
   print(f"I'll be there for you, {friend}.")
 print("When the rain starts to pour...")
 
-# Interating a Tuple
+# ---------------------------
+
+# Iterating a Tuple
 
 yummy_food = ('vegan barbecue', 'samosa', 'ice cream')
 
@@ -107,4 +102,26 @@ while True:
   numberB = numberB + 1
   
 # ===========================================================
+
+# WHILE LOOPS
+
+number = 3 # declaring the start point
+
+while number < 10:
+  number *= 2
+  print (number) # 6 12
+print ("Exited while loop.")
+
+# We can exit any loop by using the break statement
+while True:
+  userInput = input("Please enter 'go away': ")
+  if userInput.strip() == 'go away':
+    print("Thanks! Have a good life!")
+    break
+  
+# the strip() method removes any leading (at the beginning of the string), and trailing (at the end) whitespaces.
+  
+# ===========================================================
+
+
   
