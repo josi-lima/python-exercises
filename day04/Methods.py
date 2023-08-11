@@ -40,6 +40,26 @@ print(sorted_patterns)
 
 # ---------------------------
 
+# send items from a dictionary to a list
+
+toys = {
+  'Jake': 'dolls',
+  'Olivia': 'puzzles'
+  }
+
+lst = []
+
+for key, value in toys.items():
+    pair = (key, value)
+    lst.append(pair)
+    
+lst = sorted(lst, reverse = True)
+
+print(lst)
+# [('Olivia', 'puzzle'), ('Jake', 'doll')]
+
+# ---------------------------
+
 # another difference is that the sort() method is only defined for lists. 
 # in contrast, the sorted() function accepts any iterable, but it prints only the keys
 
