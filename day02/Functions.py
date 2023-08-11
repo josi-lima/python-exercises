@@ -73,14 +73,14 @@ print(result) # 66
 
 # 🚀 6. Create a function that will convert degrees from Fahrenheit to Celsius.
 
-def degreesF(temp):
+def degreesFahr(temp):
   celsius = 0
   fahr = float(temp)
   
   celsius = round(((fahr - 32.0) * 5.0 / 9.0), 1)
   return celsius
   
-print(f"Temperature in Celsius: {degreesF(63)} degrees.")
+print(f"Temperature in Celsius: {degreesFahr(63)} degrees.")
  
 # ===========================================================
 
