@@ -2,7 +2,7 @@
 
 # the reserved word 'def' is used to define a function 
 
-# Create a function that prints a message with the countries a person would like to live in.
+# 🚀 1. Create a function that prints a message with the countries a person would like to live in.
 
 def name_countries(country1, country2, country3):
   print(f"If I could live anywhere in the world, I'd move to {country1}, {country2} or {country3}.")
@@ -12,7 +12,7 @@ name_countries('Austria', 'Spain', 'Holland')
 
 # ===========================================================
 
-# Create a function that calculates an area of a triangle, base and height must not be zero.
+# 🚀 2. Create a function that calculates an area of a triangle, base and height must not be zero.
 
 def triangle_area(base, height):
   area = ''
@@ -30,7 +30,7 @@ triangle_area(15, 10)
   
 # ===========================================================
 
-# Create a function that returns a string in all caps. 
+# 🚀 3. Create a function that returns a string in all caps. 
 
 def uppercase(string):
   upper = string.upper()
@@ -41,7 +41,7 @@ print(uppercase("all we need is love."))
 
 # ---------------------------
 
-# Create a function that returns the names of a list in lower caps. 
+# 🚀 4. Create a function that returns the names of a list in lower caps. 
 
 heroes = ['BATMAN', 'SPIDER MAN', 'BLACK WIDOW']
 
@@ -57,7 +57,7 @@ for heroe in heroes:
 
 # ===========================================================
 
-# Create a dynamic function that multiplies two numbers, taken into account that the first number is the result of the sum of 'x + 2'.
+# 🚀 5. Create a dynamic function that multiplies two numbers, taken into account that the first number is the result of the sum of 'x + 2'.
 
 def addTwo(x):
   return x + 2
@@ -68,10 +68,23 @@ def multiply(a, b):
 result = multiply(addTwo(20), 3)  # using a function as one of the parameters
 
 print(result) # 66
-  
+
 # ===========================================================
 
-# Create a function that returns a number entered by the user times 2.
+# 🚀 6. Create a function that will convert degrees from Fahrenheit to Celsius.
+
+def degreesF(temp):
+  celsius = 0
+  fahr = float(temp)
+  
+  celsius = round(((fahr - 32.0) * 5.0 / 9.0), 1)
+  return celsius
+  
+print(f"Temperature in Celsius: {degreesF(63)} degrees.")
+ 
+# ===========================================================
+
+# 🚀 7. Create a function that returns a number entered by the user times 2.
 
 def double_chances():
   user_input = input("What number would you like to double? ")
@@ -83,3 +96,4 @@ double_chances()
 # int() converts the string provided to an integer
 
 # ===========================================================
+
