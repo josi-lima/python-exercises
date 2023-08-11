@@ -1,6 +1,6 @@
 # SORT in Python  -------  .sort() / .sorted()
 
-# sort() modifies a list directly
+# sort() method modifies a list directly
 
 # it can be less convenient than sorted(), but if you don't need the original list, it's slightly more efficient.
 
@@ -66,7 +66,7 @@ print(j)  # -1
 
 # SPLIT in Python
 
-# the split() method splits a string into a list. You can specify the separator, default separator is any whitespace
+# split() method splits a string into a list. You can specify the separator, default separator is any whitespace
 
 words = 'His e-mail is q-lar@freecodecamp.org'
 
@@ -86,13 +86,16 @@ print(n)
 
 # GET in Python
 
-# get() method returns the value for the given key if present in the dictionary. If not, then it will return None
+# get() method returns the value for the given key if present in the dictionary. 
+# if not, then it will return None
+# get() expects two arguments at most
 
-counts = { 'quincy' : 1 , 'mrugesh' : 42, 'beau': 100, '0': 10}
+french = {'eau': 1, 'pastèque': 42, 'beau': 100, 'chocolat': 10}
 
-print(counts.get('kris'))  # None
+print(french.get('arbre'))  # None
 
-# the value '0' is provided
-print(counts.get('kris', 0))  # 0
+# now the value '0' is provided
+print(french.get('arbre', 0))  # 0
 
 # ===========================================================
+
