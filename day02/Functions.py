@@ -65,7 +65,9 @@ def addTwo(x):
 def multiply(a, b):
   return a * b
 
-result = multiply(addTwo(20), 3)  # using a function as one of the parameters
+# using a function as one of the parameters 
+
+result = multiply(addTwo(20), 3)  # a = 22 / b = 3
 
 print(result) # 66
 
@@ -77,7 +79,7 @@ def degreesFahr(temp):
   celsius = 0
   fahr = float(temp)
   
-  celsius = round(((fahr - 32.0) * 5.0 / 9.0), 1)
+  celsius = round(((fahr - 32.0) * 5.0 / 9.0), 1)  # 1 is for one decimal place
   return celsius
   
 print(f"Temperature in Celsius: {degreesFahr(63)} degrees.")
