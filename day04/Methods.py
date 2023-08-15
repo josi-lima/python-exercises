@@ -56,7 +56,7 @@ for key, value in toys.items():
 lst = sorted(lst, reverse = True)
 
 print(lst)
-# [('Olivia', 'puzzle'), ('Jake', 'doll')]
+# [('Olivia', 'puzzles'), ('Jake', 'dolls')]
 
 # ---------------------------
 
@@ -75,7 +75,7 @@ print(sorted(data))
 # find() method finds the first occurrence of the specified value 
 # it returns -1 if the value is not found
 
-word = "bananana"
+word = "banana"
 i = word.find("na")
 j = word.find("pi")
 
@@ -116,6 +116,8 @@ print(french.get('arbre'))  # None
 
 # now the value '0' is provided
 print(french.get('arbre', 0))  # 0
+
+print(french.get('pastèque'))  # 42  # return of the value from the given key
 
 # ===========================================================
 
