@@ -1,6 +1,6 @@
 # semicolons can be used to delimit statements coded on the same line
 
-print('Hello World!'); print("Welcome to  planet Python!")
+print('Hello World!'); print("Welcome to planet Python!")
 
 # ===========================================================
 
@@ -53,8 +53,21 @@ if light_is_on | party_is_over:  # this condition is false. Nothing will be prin
 # ---------------------------
 
 # check bool values
-check = 0 is 0.0
-print(check)
+checkA = 0 == 0.0
+print(checkA)  # True
+
+# ---------------------------
+
+# casting booleans
+checkB = bool(-1) == 1
+print(checkB) # True
+print(bool(0))  # False
+# negative numbers are also True, but 0 is False
+
+# empty strings, lists or dictionaries are False
+print(f"Empty string is: {bool('')}")
+print(f"Empty list is: {bool([])}")
+print(f"Empty dictionary is: {bool({})}")
 
 # ===========================================================
 
