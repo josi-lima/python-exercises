@@ -1,3 +1,5 @@
+import math
+
 # Create a function that returns the value of the factorial of a number if it is defined, otherwise returns None.
 
 # Note: in a set of 0 items (an empty set), there is only one way to arrange the items, therefore, 0! = 1
@@ -20,3 +22,10 @@ print(factorial('spam')) # None
 
 # ===========================================================
 
+# Get a factorial number using the math module
+
+fac_num = math.factorial(6) 
+
+print(fac_num) # 720
+
+# ===========================================================
