@@ -12,9 +12,11 @@ def Circle():
   radius = float(input('Please, insert the radius of a circle: '))
   
   # using the math module
-  pi = float(format(math.pi,'2f'))
-  print(pi)  # 3.141593
-    
+  pi = math.pi
+  # pi = float(format(math.pi,'2f')) # 3.141593
+  
+  print(f'The pi number is: {math.pi:.2f}')  # 3.14
+     
   area = round((pi * radius ** 2), 2)
   perimeter = round((2 * pi * radius), 2)
 
@@ -24,3 +26,8 @@ def Circle():
 Circle()
 
 # ===========================================================
+
+# This code only imports the π constant:
+
+# from math import pi
+# pi_value = pi
