@@ -77,14 +77,23 @@ print(city)
 
 # ===========================================================
 
-# add and remove an element from a set
+# add an element to a set
+
 city.add('São Paulo')
 print(city)
 # {'São Paulo', 'Los Angeles', 'Tampa', 'New York'}
 
+# ---------------------------
+
+# remove an element from a set
+
 city.remove('Tampa')
 print(city)
 # {'São Paulo', 'Los Angeles', 'New York'}
+
+city.discard('Los Angeles')
+print(city)
+# {'São Paulo', 'New York'}
 
 # add() method differs from append(). 
 # add() does not add an element at the last position since the data type set is unordered
