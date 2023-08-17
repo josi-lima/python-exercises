@@ -114,7 +114,7 @@ french = {'eau': 1, 'pastèque': 42, 'beau': 100, 'chocolat': 10}
 
 print(french.get('arbre'))  # None
 
-# now the value '0' is provided
+# now the default value '0' is provided
 print(french.get('arbre', 0))  # 0
 
 print(french.get('pastèque'))  # 42  # return of the value from the given key
