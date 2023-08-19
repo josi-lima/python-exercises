@@ -152,7 +152,7 @@ def swapValues(a, b):
   a = b          # a = second
   b = temporary  # b = first
   print(a, b)
-swapValues('first', 'second')
+swapValues('first', 'second')  # second first
 
 # ==================================================================
 
