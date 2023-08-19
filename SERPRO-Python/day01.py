@@ -16,12 +16,12 @@ print(firstSum(56, 44))  # 100
 
 # ---------------------------
 
-# def secondSum():
-#   numA = int(input("Please, enter the first number: "))
-#   numB = int(input("Please, enter the second number: "))
+def secondSum():
+  numA = int(input("Please, enter the first number: "))
+  numB = int(input("Please, enter the second number: "))
   
-#   return numA + numB
-# print(secondSum())
+  return numA + numB
+print(secondSum())
 
 # ==================================================================
 
@@ -49,12 +49,12 @@ print(calculateRecArea(5.5, 7.0))  # 38.5
 
 # 🚀 5. Create a program that takes a user's name and age as input and prints a greeting message.
 
-# def greetUser():
-#   name = input("What's your first name? ")
-#   age = input("How old are you? ")
+def greetUser():
+  name = input("What's your first name? ")
+  age = input("How old are you? ")
   
-#   print(f"Welcome, {name}! Today's your birthday! You're turning {age}.")
-# greetUser()
+  print(f"Welcome, {name}! Today's your birthday! You're turning {age}.")
+greetUser()
 
 # ==================================================================
 
