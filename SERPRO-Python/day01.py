@@ -16,12 +16,12 @@ print(firstSum(56, 44))  # 100
 
 # ---------------------------
 
-def secondSum():
-  numA = int(input("Please, enter the first number: "))
-  numB = int(input("Please, enter the second number: "))
+# def secondSum():
+#   numA = int(input("Please, enter the first number: "))
+#   numB = int(input("Please, enter the second number: "))
   
-  return numA + numB
-print(secondSum())
+#   return numA + numB
+# print(secondSum())
 
 # ==================================================================
 
@@ -49,12 +49,12 @@ print(calculateRecArea(5.5, 7.0))  # 38.5
 
 # 🚀 5. Create a program that takes a user's name and age as input and prints a greeting message.
 
-def greetUser():
-  name = input("What's your first name? ")
-  age = input("How old are you? ")
+# def greetUser():
+#   name = input("What's your first name? ")
+#   age = input("How old are you? ")
   
-  print(f"Welcome, {name}! Today's your birthday! You're turning {age}.")
-greetUser()
+#   print(f"Welcome, {name}! Today's your birthday! You're turning {age}.")
+# greetUser()
 
 # ==================================================================
 
@@ -97,7 +97,7 @@ print(isPalindrome('Was it a car or a cat I saw'))
 
 # replaceAll() method of string values returns a new string with all matches of a pattern replaced by a replacement.
 
-# for negative indexing, to display the 1st element to last element in steps of 1 in reverse order, we use the [::-1].  
+# for negative indexing, to display the 1st element to last element (in steps of 1) in reverse order, we use the [::-1].  
 # https://www.freecodecamp.org/news/what-does-mean-in-python-operator-meaning-for-double-colon/
 
 # ==================================================================
@@ -114,19 +114,46 @@ print(sumPositiveNums([5, 2, 3, -1, -8, 2]))  # 12
        
 # ==================================================================
 
-# 🚀 10. Create a program that takes a sentence as input and counts the number of words in it.
+# 🚀 10. Create a program that takes a sentence as input and counts the number of times a word appears in it.
 
+def countWords(text):
+  count = {}
+  
+  for word in text.lower().split():
+    if word in count:
+      count[word] += 1
+    else:
+      count[word] = 1
+  print(count)
+  
+countWords("I would love to hear a love story about a place full of love");
 
 # ==================================================================
 
-# 🚀 11. Write a program that converts a given number of days into years, weeks, and days.
+# 🚀 11. Write a program that converts a given number of days into years, months and weeks.
 
+def calendar(days):
+  week = round((days / 7), 1)
+  month = round((days / 30), 1)
+  year = round((days / 365), 2)
+  
+  print(f"{days} day(s): {year} year(s).")
+  print(f"{days} day(s): {month} month(s).")
+  print(f"{days} day(s): {week} week(s).")
 
+calendar(3)
+  
 # ==================================================================
 
 # 🚀 12. Implement a program that swaps the values of two variables.
 
+def swapValues(a, b):
+  temporary = a  # temp = first
+  a = b          # a = second
+  b = temporary  # b = first
+  print(a, b)
+swapValues('first', 'second')
 
 # ==================================================================
 
-# 🚀 13. Calculate the compound interest for a given amount, interest rate, and time period.
+
