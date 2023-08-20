@@ -90,11 +90,27 @@ print(capitalizeLetters('movie: one day after tomorrow'))
    
 # ==================================================================
 
-#  🚀 9. Implement a program that converts a given number of minutes into hours and minutes.
+#  🚀 9. Create a function to count the number of vowels in a given string.
+
+def countVowels(text):
+  count = {}
+  vowels = {'a', 'e', 'i', 'o', 'u'}
+  text = text.lower().replace('', ' ').split()
+  
+  for letter in text:
+    if letter in vowels:
+      if letter in count:
+        count[letter] += 1
+      else:
+        count[letter] = 1
+  return count
+  
+print(countVowels("I'm gonna make him an offer he can't refuse."));
+# {'i': 2, 'o': 2, 'a': 4, 'e': 5, 'u': 1}
 
 # ==================================================================
 
-#  🚀 10. Create a function to count the number of vowels in a given string.
+# 🚀 10. Implement a program that converts a given number of minutes into hours and minutes.
 
 # ==================================================================
 
