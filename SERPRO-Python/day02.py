@@ -1,4 +1,5 @@
 from math import pi
+import string
 
 # ================ SERPRO Training - day 02 ==============================
 
@@ -54,17 +55,43 @@ calculateCircle(3.5)
 
 #  🚀 5. Create a function to reverse a given string.
 
+def reverseStr(string):
+  return string[::-1]
+print(reverseStr('chocolate'))  # etalocohc
+
 # ==================================================================
 
 #  🚀 6. Given a list of names, concatenate them into a single string separated by spaces.
+
+def concatNames(names):
+  concat = ' '.join(names);
+  return concat;
+  
+print(concatNames(['Jim', 'Kim', 'Lucy']))
+# Jim Kim Lucy
 
 # ==================================================================
 
 #  🚀 7. Create a program that takes a sentence as input and counts the number of words in it.
 
+def countWords(phrase):
+  sentence = phrase.split(' ')
+  word_number = len(sentence)
+  return word_number
+print(countWords('She said she would stay.'))  # 5
+  
 # ==================================================================
 
 #  🚀 8. Write a program to check if a given string is a pangram (contains all letters of the alphabet).
+
+def isPangram(string):
+  alphabet = "abcdefghijklmnopqrstuvwxyz"
+  
+  for char in alphabet:
+    if char not in string.lower():
+      return False
+    return True
+print(isPangram('The quick brown fox jumps over the lazy dog.'))  # True
 
 # ==================================================================
 
