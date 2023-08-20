@@ -77,3 +77,14 @@ for num in numbers:
     
 # ===========================================================
 
+# using range() with lists
+
+myList = list(range(20 +1))  # +1, so the last number will be included
+myList = myList[::2]
+
+print(myList)
+# [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+# ===========================================================
+
+
