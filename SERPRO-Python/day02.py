@@ -68,15 +68,11 @@ calculateCircle(3.5)
 
 # ==================================================================
 
-#  🚀 9. Calculate the compound interest for a given amount, interest rate, and time period.
+#  🚀 9. Implement a program that converts a given number of minutes into hours and minutes.
 
 # ==================================================================
 
-#  🚀 10. Implement a program that converts a given number of minutes into hours and minutes.
-
-# ==================================================================
-
-#  🚀 11. Create a function to count the number of vowels in a given string.
+#  🚀 10. Create a function to count the number of vowels in a given string.
 
 # ==================================================================
 
