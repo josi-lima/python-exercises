@@ -1,5 +1,4 @@
 from math import pi
-import string
 
 # ================ SERPRO Training - day 02 ==============================
 
@@ -82,17 +81,13 @@ print(countWords('She said she would stay.'))  # 5
   
 # ==================================================================
 
-#  🚀 8. Write a program to check if a given string is a pangram (contains all letters of the alphabet).
+#  🚀 8. Create a function that will capitalize the first letter of each word in a text.
 
-def isPangram(string):
-  alphabet = "abcdefghijklmnopqrstuvwxyz"
-  
-  for char in alphabet:
-    if char not in string.lower():
-      return False
-    return True
-print(isPangram('The quick brown fox jumps over the lazy dog.'))  # True
-
+def capitalizeLetters(text):
+  return text.title()
+print(capitalizeLetters('movie: one day after tomorrow'))
+# Movie: One Day After Tomorrow
+   
 # ==================================================================
 
 #  🚀 9. Implement a program that converts a given number of minutes into hours and minutes.
