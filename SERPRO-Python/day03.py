@@ -3,13 +3,31 @@
 
 # 🚀 1. Write a program that checks if a given number is positive, negative, or zero.
 
+def checkNumbers(num):
+  if num > 0: return 'positive'
+  elif num < 0: return 'negative'
+  else: return 'zero'
+print(checkNumbers(-5))  # negative
+  
 # ==================================================================
 
 # 🚀 2. Create a loop that prints the first 10 even numbers.
 
+def evenNumbers():
+  for num in range(0, 10 + 1, 2):
+    print(num)
+evenNumbers()
+
 # ==================================================================
 
 # 🚀 3. Write a program that calculates the factorial of a given number.
+
+def factorial(number):
+  factor = 1
+  for num in range(number):
+    factor = (num + 1) * factor 
+  return factor
+print(factorial(5))   # 120
 
 # ==================================================================
 
