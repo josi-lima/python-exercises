@@ -1,3 +1,7 @@
+import calendar
+# importing calendar module for calendar operations 
+
+
 # ================ SERPRO Training - day 03 ==============================
 
 
@@ -32,6 +36,25 @@ print(factorial(5))   # 120
 # ==================================================================
 
 # 🚀 4. Create a program that takes a year as input and checks if it is a leap year or not.
+
+def isLeapYear():
+  year = int(input("Please, enter a year typing the four digits: "))
+  
+  if (year % 400 == 0) or (year % 100 != 0 and year % 4 == 0):
+    return 'leap year'
+  else: return 'not a leap year'
+print(isLeapYear())
+  
+# Notes:
+# divided by 100 means century year (ending with 00) / century year divided by 400 is leap year.
+# not divided by 100 means not a century year / # year divided by 4 is a leap year.
+
+# ---------------------------------
+
+def leapYear(year):
+  check = calendar.isleap(year)
+  return check
+print(leapYear(2024)) # True
 
 # ==================================================================
 
