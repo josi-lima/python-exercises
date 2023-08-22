@@ -110,8 +110,6 @@ print(countVowels("I'm gonna make him an offer he can't refuse."));
 
 # ==================================================================
 
-# 🚀 10. Implement a program that converts a given number of minutes into hours and minutes.
 
-# ==================================================================
 
 

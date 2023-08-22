@@ -21,6 +21,7 @@ def evenNumbers():
   for num in range(0, 10 + 1, 2):
     print(num)
 evenNumbers()
+# 0 2 4 6 8 10
 
 # ==================================================================
 
@@ -91,10 +92,37 @@ print(namesWithA(['Amy', 'Jose', 'amir', 'Renato', 'Adelaide']))
 
 # ==================================================================
 
-#  🚀 9. Write a program to check if a number is prime.
+# 🚀 9. Write a program to check if a number is prime.
 
 # ==================================================================
 
-#  🚀 10. Calculate the compound interest for a given amount, interest rate, and time period.
+# 🚀 10. The following list contains elements with the proprieties: name and age.
+# Return the people whose age is equal or greater than 30 years old.
+
+people = [
+  { 'name': 'Harry', 'age': 25 },
+  { 'name': 'Mary', 'age': 30 },
+  { 'name': 'Peter', 'age': 20 },
+  { 'name': 'Amy', 'age': 38 },
+];
+
+
+# [ { name: 'Mary', age: 30 }, { name: 'Amy', age: 38 } ]
+
+# ==================================================================
+
+# 🚀 11. The next list shows a few famous basketball players. Create a function that returns only the players who are 200 centimeters or more tall.
+
+players = [
+  { 'name': 'Michael Jordan', 'height': 198, 'team': 'Chicago Bulls' },
+  { 'name': 'LeBron James', 'height': 203, 'team': 'Los Angeles Lakers' },
+  { 'name': 'Kobe Bryant', 'height': 198, 'team': 'Los Angeles Lakers' },
+  { 'name': 'Stephen Curry', 'height': 191, 'team': 'Golden State Warriors' },
+  { 'name': 'Kevin Durant', 'height': 211, 'team': 'Brooklyn Nets' },
+];
+
+
+# [ { name: 'LeBron James', height: 203, team: 'Los Angeles Lakers' },
+#  { name: 'Kevin Durant', height: 211, team: 'Brooklyn Nets' } ]
 
 # ==================================================================
