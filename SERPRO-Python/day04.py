@@ -1,7 +1,7 @@
 # ================ SERPRO Training - day 04 ==============================
 
 
-# 🚀 1. Given a list of numbers, create a function to find the sum of all odd numbers.
+# 🚀 1. Write a program to check if a number is prime.
 
 # ==================================================================
 

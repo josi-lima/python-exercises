@@ -93,7 +93,7 @@ print(namesWithA(['Amy', 'Jose', 'amir', 'Renato', 'Adelaide']))
 
 # ==================================================================
 
-# 🚀 9. Write a program to check if a number is prime.
+# 🚀 9. Given a list of numbers, create a function to find the sum of all odd numbers.
 
 # ==================================================================
 
