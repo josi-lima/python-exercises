@@ -88,7 +88,8 @@ print(namesWithA(['Amy', 'Jose', 'amir', 'Renato', 'Adelaide']))
 
 # ==================================================================
 
-# 🚀 8. Given a list of words, count the number of words with more than five characters.
+# 🚀 8. Given a list of words, print all the words ending with a vowel.
+
 
 # ==================================================================
 

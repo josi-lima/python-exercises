@@ -29,3 +29,18 @@
 
 # ==================================================================
 
+# 🚀 8. Implement a function that returns the factorial of a given number using recursion.
+
+# ==================================================================
+
+# 🚀 9. Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+# ==================================================================
+
+# 🚀 10. Create a function to find the missing letter in the passed letter range and return it. 
+# If all letters are present in the range, return undefined.
+
+# For example, "abce" should return the string "d".
+# "abcdefghijklmnopqrstuvwxyz" should return undefined.
+
+# ==================================================================
