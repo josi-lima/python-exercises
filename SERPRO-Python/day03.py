@@ -60,9 +60,26 @@ print(leapYear(2024)) # True
 
 # 🚀 5. Given a list of integers, find all the even numbers and store them in a new list.
 
+def allEvenNumbers(numbers):
+  evenList = []
+  for num in numbers:
+    if num % 2 == 0:
+      evenList.append(num)
+  return evenList
+
+print(allEvenNumbers([2, 4, 9, 45, 56, 8, 10, 77]))
+# [2, 4, 56, 8, 10]
+  
 # ==================================================================
 
 # 🚀 6. Given a list of names, print all names starting with the letter 'A'.
+
+def namesWithA(names):
+  a_list = [name for name in names if name.lower().startswith('A'.lower())]
+  return a_list
+
+print(namesWithA(['Amy', 'Jose', 'amir', 'Renato', 'Adelaide']))
+# ['Amy', 'amir', 'Adelaide']
 
 # ==================================================================
 
