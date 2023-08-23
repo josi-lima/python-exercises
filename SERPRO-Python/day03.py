@@ -92,6 +92,7 @@ def multiplyNumbers(number):
     result = index * number
     print(f"{number} * {index} = {result}")
 multiplyNumbers(7)
+# 7 * 1 = 7 (...)
     
 # ==================================================================
 
@@ -107,8 +108,16 @@ print(namesWithV(['bingo', 'girl', 'table', 'banana', 'tall', 'Japanese']))
 
 # ==================================================================
 
-# 🚀 9. Given a list of numbers, create a function to find the sum of all odd numbers.
+# 🚀 9. Implement a program that prints the multiplication table of a given number using recursion.
 
+def multiplyWithRecursion(number, index = 1):
+  if (index > 10):
+    return
+  print(f"{number} * {index} = {number * index}")
+  return multiplyWithRecursion(number, index + 1)
+
+multiplyWithRecursion(2)
+# 2 * 1 = 2 (...)
 
 # ==================================================================
 
@@ -122,6 +131,8 @@ people = [
   { 'name': 'Amy', 'age': 38 },
 ];
 
+people_over_30 = [ person for person in people if person['age'] >= 30 ]
+print(people_over_30)
 
 # [ { name: 'Mary', age: 30 }, { name: 'Amy', age: 38 } ]
 
@@ -137,6 +148,8 @@ players = [
   { 'name': 'Kevin Durant', 'height': 211, 'team': 'Brooklyn Nets' },
 ];
 
+tall_players = [ player for player in players if player['height'] > 200 ]
+print(tall_players)
 
 # [ { name: 'LeBron James', height: 203, team: 'Los Angeles Lakers' },
 #  { name: 'Kevin Durant', height: 211, team: 'Brooklyn Nets' } ]
