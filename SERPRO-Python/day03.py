@@ -38,13 +38,13 @@ print(factorial(5))   # 120
 
 # 🚀 4. Create a program that takes a year as input and checks if it is a leap year or not.
 
-def isLeapYear():
-  year = int(input("Please, enter a year typing the four digits: "))
+# def isLeapYear():
+#   year = int(input("Please, enter a year typing the four digits: "))
   
-  if (year % 400 == 0) or (year % 100 != 0 and year % 4 == 0):
-    return 'leap year'
-  else: return 'not a leap year'
-print(isLeapYear())
+#   if (year % 400 == 0) or (year % 100 != 0 and year % 4 == 0):
+#     return 'leap year'
+#   else: return 'not a leap year'
+# print(isLeapYear())
   
 # Notes:
 # divided by 100 means century year (ending with 00) / century year divided by 400 is leap year.
@@ -86,14 +86,29 @@ print(namesWithA(['Amy', 'Jose', 'amir', 'Renato', 'Adelaide']))
 
 # 🚀 7. Implement a program that prints the multiplication table of a given number.
 
+def multiplyNumbers(number):
+  result = 0  
+  for index in range(1, 10 + 1):
+    result = index * number
+    print(f"{number} * {index} = {result}")
+multiplyNumbers(7)
+    
 # ==================================================================
 
 # 🚀 8. Given a list of words, print all the words ending with a vowel.
 
+def namesWithV(names):
+  vowels = ('a', 'e', 'i', 'o', 'u')
+  v_list = [name for name in names if name.lower().endswith(vowels)]
+  return v_list
+
+print(namesWithV(['bingo', 'girl', 'table', 'banana', 'tall', 'Japanese']))
+# ['bingo', 'table', 'banana', 'Japanese']
 
 # ==================================================================
 
 # 🚀 9. Given a list of numbers, create a function to find the sum of all odd numbers.
+
 
 # ==================================================================
 
