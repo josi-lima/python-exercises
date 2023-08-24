@@ -69,3 +69,12 @@ print(short_words)
 # ['Hebei', 'which', 'flood', 'gates', 'seven', 'flood', 'zones', 'other', 'state', 'media']
 
 # ===========================================================
+
+# if / else statements with list comprehension
+
+conditional_list = ['Monty Python' if n % 6 == 0 else 'Python' if n % 3 == 0 else 'Monty' if n % 2 == 0 else n for n in range(1, 10)]
+
+print(conditional_list)
+# [1, 'Monty', 'Python', 'Monty', 5, 'Monty Python', 7, 'Monty', 'Python']
+
+# ===========================================================
