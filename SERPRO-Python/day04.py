@@ -38,11 +38,15 @@ print(squareNumbers([2, 4, 6, 8, 10, 12]))
 
 # ==================================================================
 
-# 🚀 4. Given a list of words, print the words which contain all the vowels.
+# 🚀 4. Given a list of words, count the number of words with more than five characters.
 
-# def findAllVowels(words):
-  # vowels = ['a', 'e', 'i', 'o', 'u']    
-# print(findAllVowels(['regulation', 'cauliflower', 'pop']))
+def moreThan5(words):
+  count = 0
+  for word in words:
+    if len(word) > 5:
+      count += 1
+  return count
+print(moreThan5(['domino', 'table', 'booklet', 'cake', 'computer']))  # 3
   
 # ==================================================================
 
