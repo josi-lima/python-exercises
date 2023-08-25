@@ -5,25 +5,25 @@
 
 # prime numbers are numbers that can be divided only by one and by itself. There are 25 prime numbers in the range of 0 and 100.
 
-def check_prime(number): 
+def checkPrime(number): 
   is_prime = True
   for i in range(2, number - 1):
     if int(number / i) == number / i:
       is_prime = False
   return is_prime
-print(check_prime(97))   # True
+print(checkPrime(97))   # True
 
 # ==================================================================
 
 # 🚀 2. Given a list of numbers, create a function to find the sum of all odd numbers.
 
-def oddNumbers(numbers):
+def sumOddNumbers(numbers):
   sum = 0  
   for num in numbers:
     if num % 2 != 0:
       sum += num
   return sum
-print(oddNumbers([3, 17, 2, 5, 10, 9, 4]))  # 34
+print(sumOddNumbers([3, 17, 2, 5, 10, 9, 4]))  # 34
 
 # ==================================================================
 
