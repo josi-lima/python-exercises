@@ -74,9 +74,8 @@ print(concatNames(['Jim', 'Kim', 'Lucy']))
 #  🚀 7. Create a program that takes a sentence as input and counts the number of words in it.
 
 def countWords(phrase):
-  sentence = phrase.split(' ')
-  word_number = len(sentence)
-  return word_number
+  sentence = phrase.split()
+  return len(sentence)
 print(countWords('She said she would stay.'))  # 5
   
 # ==================================================================

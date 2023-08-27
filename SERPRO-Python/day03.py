@@ -106,6 +106,8 @@ def namesWithV(names):
 print(namesWithV(['bingo', 'girl', 'table', 'banana', 'tall', 'Japanese']))
 # ['bingo', 'table', 'banana', 'Japanese']
 
+# endswith first arg must be string or a tuple of strings, not list
+
 # ==================================================================
 
 # 🚀 9. Implement a program that prints the multiplication table of a given number using recursion.
@@ -153,5 +155,5 @@ print(tall_players)
 
 # [ { name: 'LeBron James', height: 203, team: 'Los Angeles Lakers' },
 #  { name: 'Kevin Durant', height: 211, team: 'Brooklyn Nets' } ]
-
+6
 # ==================================================================

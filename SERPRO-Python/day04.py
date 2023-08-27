@@ -1,3 +1,5 @@
+import math
+
 # ================ SERPRO Training - day 04 ==============================
 
 
@@ -17,13 +19,15 @@ print(checkPrime(97))   # True
 
 # 🚀 2. Given a list of numbers, create a function to find the sum of all odd numbers.
 
-def sumOddNumbers(numbers):
+def sumOddNumbers(*numbers):
   sum = 0  
   for num in numbers:
     if num % 2 != 0:
       sum += num
   return sum
-print(sumOddNumbers([3, 17, 2, 5, 10, 9, 4]))  # 34
+print(sumOddNumbers(3, 17, 2, 5, 10, 9, 4))  # 34
+
+# the special syntax *args in function definitions in Python is used to pass a variable number of arguments to a function.
 
 # ==================================================================
 
